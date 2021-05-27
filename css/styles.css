@@ -1,0 +1,241 @@
+:root {
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-text-color: #757575;
+  --brand-color: #000000;
+  --text-decoration-color: rgba(255, 255, 255, 0.6);
+  --main-text-color: #ffffff;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --modal-button-color: #188ce8;
+  --secondary-button-color: #f5f4fa;
+  --secondary-background-color: #2f303a;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--main-font);
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+/* ===================== COMPONENTS ==================*/
+
+.description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* set one color to headers h2 */
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+/* ================== END COMPONENTS==================*/
+
+/* =================== HEADER ======================== */
+
+.logo-link {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--brand-color);
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+/* navigation menu */
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+/* Added style to links navigation menu on focus and on hover */
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.nav-list .nav-link.current {
+  color: var(--accent-color);
+}
+
+.contact-header a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.mail-link:hover,
+.mail-link:focus {
+  color: var(--accent-color);
+}
+
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--accent-color);
+}
+/* ================== END HEADER ==================== */
+
+/* ======================== HERO ==================== */
+.hero {
+  background-color: var(--secondary-background-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-text-color);
+}
+
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--main-text-color);
+  cursor: pointer;
+}
+
+/* Added styles to the button on focus, on hover */
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--modal-button-color);
+}
+
+/* ====================== END HERO ================== */
+
+/* ===================== FEATURES =================== */
+/* set one color to headers h3 in section feature*/
+.feature-list .title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+/* ======================= END FEATURES ============= */
+
+/* ======================= WORKS ==================== */
+
+/* ====================== END WORKS =========  */
+
+/* ====================== TEAM ==============  */
+.subtitle {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.name-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+/* ====================== END TEAM ==============  */
+
+/* ================= FOOTER =================== */
+.section-footer .logo-link {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.section-footer {
+  background-color: var(--secondary-background-color);
+}
+
+.contact-footer a {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-decoration-color);
+}
+
+.contact-footer .map-link {
+  color: var(--main-text-color);
+}
+
+.contact-footer .mail-link:hover,
+.contact-footer .mail-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-footer .tel-link:hover,
+.contact-footer .tel-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-footer .map-link:hover,
+.contact-footer .map-link:focus {
+  color: var(--accent-color);
+}
+
+/* ================ END FOOTER ============== */
+/* ================ PORTFOLIO ==================== */
+.portfolio-item .subtitle {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.portfolio-item .title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background-color: var(--secondary-button-color);
+  cursor: pointer;
+}
+
+/* Added styles to the filter button on focus, on hover */
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--main-text-color);
+  background-color: var(--accent-color);
+}
